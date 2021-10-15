@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/imageList.css">
+    <link rel="stylesheet" href="./assets/css/mediaQuery.css">
+    <title>Ceylon Holidays - Travel Agency</title>
+</head>
+
+<body onload="showAlert()">
+    <button onclick="backToTop()" id="topBtn" title="Back to top">⮝</button>
+    <div class="hero">
+        <header>
+            <h2><a href="index.html">Celylon Holidays</a></h2>
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-item active"><a href="index.html" class="nav-link">HOME</a></li>
+                    <li class="nav-item"><a href="./assets/pages/destinations.html" class="nav-link">DESTINATIONS</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">HOTELS</a></li>
+                    <li class="nav-item"><a href="./assets/pages/reviews.html" class="nav-link">REVIEWS</a></li>
+                    <li class="nav-item"><a href="./assets/pages/contactus.html" class="nav-link">CONTACT US</a></li>
+                    <li class="nav-item"><a href="./assets/pages/aboutus.html" class="nav-link">ABOUT US</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav> 
+        </header>
+        <div class="heroContent">
+            <div class="heroText">
+                <h1>Welcome Sri Lanka</h1>
+                <h3>Welcome to the wonderful island of the indian ocean</h3>
+            </div>
+            <div class="heroBtnGroup">
+                <a href="#"><button type="button" class="btn outline">CONTACT US</button></a>
+                <a href="#"><button type="button" class="btn solid">BOOK NOW</button></a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="container">
+        <div class="selectionPanel">
+            <h1>Where would you love to go?</h1>
+            <div class="panel">
+                <div class="options">
+                    <div class="optionBox">
+                        <label>I AM/WE ARE</label>
+                        <select name="option_1">
+                            <option value="individual">An Individual</option>
+                            <option value="family">A Family</option>
+                            <option value="couple">A Couple</option>
+                            <option value="company">A Company</option>
+                            <option value="group">A Group</option>
+                        </select>
+                    </div>
+                    <div class="optionBox">
+                        <label>LOOKING FOR</label>
+                        <select name="option_2">
+                            <option value="adventure">Adventure</option>
+                            <option value="beach">Beach Tour</option>
+                            <option value="cultural" selected>Cultural Tour</option>
+                            <option value="family">Family Tour</option>
+                            <option value="luxury">Luxury Tours</option>
+                            <option value="rail">Train Tours</option>
+                            <option value="relax">Relax Tour</option>
+                            <option value="golf">Surfing Tours</option>
+                        </select>
+                    </div>
+                    <div class="optionBox">
+                        <label>WILLING TO GO</label>
+                        <select name="option_3">
+                            <option value="ampara">Ampara</option>
+                            <option value="anuradhapura" selected>Anuradhapura</option>
+                            <option value="badulla">Badulla</option>
+                            <option value="batticaloa">Batticaloa</option>
+                            <option value="colombo">Colombo</option>
+                            <option value="galle">Galle</option>
+                            <option value="gampaha">Gampaha</option>
+                            <option value="hambantota">Hambantota</option>
+                            <option value="jaffna">Jaffna</option>
+                            <option value="kalutara">Kalutara</option>
+                            <option value="kandy">Kandy</option>
+                            <option value="kegalle">Kegalle</option>
+                            <option value="kilinochchi">Kilinochchi</option>
+                            <option value="kurunegala">Kurunegala</option>
+                            <option value="mannar">Mannar</option>
+                            <option value="matale">Matale</option>
+                            <option value="matara">Matara</option>
+                            <option value="monaragala">Monaragala</option>
+                            <option value="mullaitivu">Mullaitivu</option>
+                            <option value="nuwaraeliya">Nuwara Eliya</option>
+                            <option value="polonnaruwa">Polonnaruwa</option>
+                            <option value="puttalam">Puttalam</option>
+                            <option value="ratnapura">Ratnapura</option>
+                            <option value="trincomalee">Trincomalee</option>
+                            <option value="vavuniya">Vavuniya</option>
+                        </select>
+                    </div>
+                    <div class="optionBox">
+                        <label>DATE</label>
+                        <input type="date" id="datePicker"> 
+                    </div>
+    
+                </div>
+                <div class="find">
+                    <input type="submit" value="Find" class="btn2">
+                </div>
+            </div>
+        </div>
+
+        <div class="destinations" id="destinations">
+            <h1>Trending Destinations</h1>
+            <p>Check out these incredible Sri Lanka tourist attractions when planning your next trip to this peaceful country. Here is a comprehensive list of the top places to visit in Sri Lanka for a relaxing vacation away from the city.</p>
+            <div class="places">
+                <div class="row">
+                    <div class="ImgLinkGroup">
+                        <div class="card">
+                            <a href="#" target="_blank">
+                                <div class="imageBox image1">
+                                    <h3>ELLA</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a href="#" target="_blank">
+                                <div class="imageBox image2">
+                                    <h3>ARUGAM BAY</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ImgLinkGroup">
+                        <div class="card">
+                            <a href="#" target="_blank">
+                                <div class="imageBox image3">
+                                    <h3>SRIPADA</h3>
+                                </div>
+                            </a>
+                        </div> 
+                        <div class="card">
+                            <a href="#" target="_blank">
+                                <div class="imageBox image4">
+                                    <h3>KANDY</h3>
+                                </div>
+                            </a>
+                        </div> 
+                    </div> 
+                </div>
+
+                <div class="row">
+                    <div class="ImgLinkGroup">
+                        <div class="card">
+                            <a href="#" target="_blank">
+                                <div class="imageBox image5">
+                                    <h3>JAFFNA</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a href="#" target="_blank">
+                                <div class="imageBox image6">
+                                    <h3>COLOMBO</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ImgLinkGroup">
+                        <div class="card">
+                            <a href="#" target="_blank">
+                                <div class="imageBox image7">
+                                    <h3>HIKKA</h3>
+                                </div>
+                            </a>
+                        </div> 
+                        <div class="card">
+                            <a href="./assets/pages/destinations.html" target="_blank">
+                                <div class="imageBox image8">
+                                    <h3>MORE »</h3>
+                                </div>
+                            </a>
+                        </div> 
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="topPackages">
+            <h1>Featured Packges</h1>
+            <div class="cardGroup">
+                <div class="cardGroupFlex">
+                    <div class="card2">
+                        <div class="cardImage premium"></div>
+                        <div class="cardBody">
+                            <h4 class="ash">Top Choice</h4>
+                            <h2>Premium<span style="font-size: 1rem">(5 days)</span></h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="price">
+                                <h1 class="blue">US$790</h1>
+                                <a href="#" target="_blank"><button class="btn">Read More</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <div class="cardImage safari"></div>
+                        <div class="cardBody">
+                            <h4 class="ash">Top Choice</h4>
+                            <h2>Safari<span style="font-size: 1rem">(5 days)</span></h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="price">
+                                <h1 class="blue">US$550</h1>
+                                <a href="#" target="_blank"><button class="btn">Read More</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardGroupFlex">
+                    <div class="card2">
+                        <div class="cardImage enjoy"></div>
+                        <div class="cardBody">
+                            <h4 class="ash">Top Choice</h4>
+                            <h2>Enjoy<span style="font-size: 1rem">(3 days)</span></h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="price">
+                                <h1 class="blue">US$590</h1>
+                                <a href="#" target="_blank"><button class="btn">Read More</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <div class="cardImage budget"></div>
+                        <div class="cardBody">
+                            <h4 class="ash">Top Choice</h4>
+                            <h2>Budget<span style="font-size: 1rem">(2 days)</span></h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="price">
+                                <h1 class="blue">US$450</h1>
+                                <a href="#" target="_blank"><button class="btn">Read More</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="aboutUs">
+            <h1>About Us</h1>
+            <div class="aboutUsGroup">
+                <div class="aboutUsImage">
+                    <img src="./assets/img/aboutusbanner.jpg" alt="" class="responsive">
+                </div>
+                <div class="aboutUsDescription">
+                    <h2>Who we are</h2>
+                    <hr>
+                    <p>For over 4 decades, Ceylon Holidays travel agency has been the trusted travel partner for Sri Lankans.Ceylon Holidays is an IATA approved outbound travel agency founded in 1995, making us one of the oldest IATA approved agencies in Sri Lanka. We are one of the most reputed outbound travel agents in Sri Lanka due to the commitment and dedication of our team of experts that are ready to serve your travel requirements 24 x 7. We will be there with you every step of the way from helping you plan your trip to organizing tours, arranging accommodation & transport and providing you with the best of travel offers globally!
+                        For all your travel needs be it tours, vacations, packages and flights choose Ceylon Holidays travel agency, Your Trusted Travel Partner!
+                    </p>
+                    <a href="./assets/pages/aboutus.html" target="_blank"><button class="btn">About Us</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="accommodation">
+            <h1>Accommodation</h1>
+            <div class="accommodationGroup">
+                <div class="card2">
+                    <img src="./assets/img/acc1.jpg" alt="" class="responsive">
+                </div>
+                <div class="card2">
+                    <img src="./assets/img/acc2.jpg" alt="" class="responsive">
+                </div>
+            </div>
+            <div class="accommodationGroup">
+                <div class="card2">
+                    <img src="./assets/img/acc3.jpg" alt="" class="responsive">
+                </div>
+                <div class="card2">
+                    <img src="./assets/img/acc4.jpg" alt="" class="responsive">
+                </div>
+            </div>
+        </div>
+
+        <div class="payment">
+            <h1>OUR PAYMENT PARTNERS</h1>
+            <img src="./assets/img/payment.png" class="responsive">  
+        </div>
+
+        <div class="review" id="review">
+            <h1>Recent Reviews</h1>
+            <div class="reviewGroup">
+                <div class="reviewBody card2">
+                    <h3>Mike Cooper</h3>
+                    <p class="date">October 4,2021</p>
+                    <p class="stars">★★★★★</p>
+                    <p>
+                        We had a fantastic time on Hayman Island and it was so easy to book this holiday with TravelOnline. It was also cheaper than other quotes I had for the same holiday.
+                    </p>
+                </div>
+                <div class="reviewBody card2">
+                    <h3>Alexa Scott</h3>
+                    <p class="date">September 20,2021</p>
+                    <p class="stars">★★★★★</p>
+                    <p>
+                        Excellent service with easy access to tours and accommodation packages. It was a seamless experience and we could not have been happier with the results. We will use the service again
+                    </p>
+                </div>
+                <div class="reviewBody card2">
+                    <h3>Spehie Janson</h3>
+                    <p class="date">September 15,2021</p>
+                    <p class="stars">★★★★★</p>
+                    <p>
+                        Received excellent customer service for this booking. Staff were very responsive, helpful and professional.Very impressed with the standard of service and being kept up to date.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="links">
+            <div class="column">
+                <h3>Ceylon Holidays</h3>
+                <a href="index.html">HOME</a>
+                <a href="./assets/pages/destinations.html">DESTINATIONS</a>
+                <a href="#">HOTELS</a>
+                <a href="#review">REVIEWS</a>
+                <a href="./assets/pages/contactus.html">CONTACT US</a>
+                <a href="./assets/pages/aboutus.html">ABOUT US</a>
+            </div>
+            <div class="divider"></div>
+            <div class="column">
+
+                <h3>Support</h3>
+                <a href="./assets/pages/contactus.html" target="_blank">Contact Us</a>
+                <a href="./assets/pages/reviews.html" target="_blank">FAQ</a>
+                <a href="./assets/pages/aboutus.html" target="_blank">About Us</a>
+            </div>
+            <div class="divider"></div>
+            <div class="column">
+                <h3>Social Media</h3>
+                <a href="http://facebook.com/" target="_blank">FacebooK</a>
+                <a href="http://youtube.com/" target="_blank">Youtube</a>
+                <a href="http://twitter.com/" target="_blank">Twitter</a>
+                <a href="http://booking.com/" target="_blank">Booking.com</a>
+                <a href="http://tripadvisor.com/" target="_blank">TripAdvisor</a>
+            </div>
+            <div class="divider"></div>
+            <div class="column">
+                <h3>Our Partners</h3>
+                <a href="http://booking.com/" target="_blank">Booking.com</a>
+                <a href="http://tripadvisor.com/" target="_blank">TripAdvisor</a><br/>
+
+                <h3>Location</h3>
+                <p>No.123, Ramanathan Rd,</p>
+                <p>Dehiwala-Mount Lavinia</p>
+            </div>
+        </div>
+        <div class="credits">
+            <p>Created by <a href="#">Maleesha Dinuranga(ITT/18/19/050).</a></p>
+            <p>&nbsp;© 2021 Ceylon Holidays (Pvt) LTD Sri Lanka.</p>
+        </div>   
+    </footer>
+</body>
+
+<script src="./assets/js/main.js"></script>
+</html>

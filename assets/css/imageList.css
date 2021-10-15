@@ -1,0 +1,44 @@
+.image1{
+    background-image: url('../img/destinations/ella.jpg');
+}
+
+.image2{
+    background-image: url('../img/destinations/arugambay.jpg');
+}
+
+.image3{
+    background-image: url('../img/destinations/sripada.jpg');
+}
+
+.image4{
+    background-image: url('../img/destinations/kandy.jpg');
+}
+
+.image5{
+    background-image: url('../img/destinations/jaffna.jpg');
+}
+
+.image6{
+    background-image: url('../img/destinations/colombo.jpg');
+}
+
+.image7{
+    background-image: url('../img/destinations/hikka.jpg');
+}
+
+.image8{
+    background-image: url('../img/destinations/more.jpg');
+}
+
+.premium{
+    background-image: url('../img/premium.jpg');
+}
+.safari{
+    background-image: url('../img/safari.jpg');
+}
+.enjoy{
+    background-image: url('../img/enjoy.jpg');
+}
+.budget{
+    background-image: url('../img/budget.jpg');
+}
